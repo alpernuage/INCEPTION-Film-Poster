@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'gotham_boldregular';
+  src: url('fonts/Gotham Bold/gotham_bold_regular-webfont.woff2') format('woff2'),
+    url('fonts/Gotham Bold/gotham_bold_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'madonnaregular';
+  src: url('fonts/Madonna/confusions_on_a_dancefloor-webfont.woff2') format('woff2'),
+    url('confusions_on_a_dancefloor-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'quatrolineregular';
+  src: url('fonts/inception/Inception_free.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'inception';
+  src: url('fonts/Quatroline/quatroline_demo-webfont.woff2') format('woff2'),
+    url('quatroline_demo-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+div {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+body {}
+
+.divbg {
+  background: url("./images/inception.jpg");
+  width: 600px;
+  height: 887px;
+}
+
+.LEONARDODICAPRIO {
+  margin-top: 20px;
+  margin-left: 18px;
+  font-family: gotham_boldregular;
+  letter-spacing: 20px;
+  font-weight: 330;
+  font-size: 15px;
+}
+
+.div2 {
+  font-family: gotham_boldregular;
+  margin-top: 40px;
+  font-size: 11px;
+  color: grey;
+  letter-spacing: 5px;
+  line-height: 13px;
+}
+
+.divinception {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  position: relative;
+  top: 49%;
+}
+
+.PARLEREALISATEUR {
+  position: relative;
+  top: 46%;
+  font-family: gotham_boldregular;
+  letter-spacing: 3px;
+  font-weight: 50;
+  color: grey;
+  letter-spacing: 1.6px;
+  padding-right: 10px;
+  margin-top: 2px;
+}
+
+#inception {
+  color: red;
+  margin: 0;
+  font-family: madonnaregular;
+  font-weight: 400;
+  letter-spacing: 10px;
+  font-size: 4.5rem;
+}
+
+#DARKNIGHT {
+  color: white;
+  font-weight: bolder;
+}
